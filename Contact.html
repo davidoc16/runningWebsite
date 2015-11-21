@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title></title>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+    <meta name='author' content=''>
+    <meta name='robots' content='all'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+  <header>   
+  <h1>We'd Love to Hear From You</h1> 
+  <div id="container">
+  <div class="box">
+    <ul>
+    <li class="start selected"><a href="index.html">Home</a></li>
+    <li><a href="stretches.html">Running Stretches</a></li>
+    <li><a href="training plan.html">Training Plan</a></li>
+    <li><a href="sitemap.html">SiteMap</a></li>
+    <li class="end"><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+  </header>
+  
+  <fieldset>
+  <legend>Personal Information</legend>
+  <label>Name:<input name="cust-name" type="text"><br>
+  <label>Email:<input name="cust-name" type="text"> <br>
+  <label>Phone:<input name="cust-name" type="text"><br>
+  <h3>Age Category</h3>
+  <input name="age" value="10-15 Years" type="radio">
+  <label>10-15 Years</label>
+  <input name="age" value="15-20 Years" type="radio">
+  <label>15-20 Years</label>
+  <input name="age" value="20-30 Years" type="radio">
+  <label>20-30 Years</label>
+  <input name="age" value="30-40 Years" type="radio">
+  <label>30-40 Years</label>
+  <input name="age" value="> 50 Years" type="radio">
+  <label>> 50 Years</label>
+  <h3>Running Experience</h3>
+  <input name="Experience" value="3 Months" type="radio">
+  <label>< 3 Months</label>
+  <input name="Experience" value="6 Months" type="radio">
+  <label>< 6 Months</label>
+  <input name="Experience" value="1 Year" type="radio">
+  <label>< 1 Year</label>
+  <input name="Experience" value="2 Year" type="radio">
+  <label>< 2 Years</label>
+  <input name="Experience" value="5 Year" type="radio">
+  <label>< 5 Years</label>
+  <input name="Experience" value="<5 Year" type="radio">
+  <label>> 5 Years</label><br>
+  Comments:<br>
+  <textarea name='comment' id='comment' ></textarea><br>
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+  
+  <input type='submit' value='Submit' /><br>
+  <form method=“post” action= “mailto:david.oconnor@students.ittralee.ie” enctype="text/plain">
+  For furthur information about running please <a href="mailto:david.oconnor@students.ittralee.ie">email</a> us.
+  
+ 
+    </fieldset>
+  </body>
+</html>
